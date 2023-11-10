@@ -75,3 +75,26 @@ body {
 .btn {
     transition: background-color 0.5s ease, color 0.5s ease;
 }
+
+
+/* MEDIA QUERYS */
+
+@media screen and (max-width: 600px) {
+
+    .content {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .btn{
+        margin: 50px 25%;
+    }
+}
+
+.cuadro{
+    text-align: center;
+}
+
+body{
+    max-width: 95%;
+}
