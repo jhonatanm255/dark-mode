@@ -1,0 +1,77 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(202, 202, 202);
+}
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15%;
+
+}
+
+.cuadro{
+    margin: 10px;
+    padding: 80px;
+    background-color: aliceblue;
+    border-radius: 10px;
+    font-size: 2em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.btn{
+    margin: 50px 45%;
+    padding: 20px 45px;
+    border-radius: 10px;
+    background-color: rgb(8, 22, 169);
+    color: aliceblue;
+    border: none;
+    cursor: pointer;
+    font-size: 1.5em;
+    width: 200px; 
+    white-space: nowrap;
+    overflow: hidden; 
+    
+}
+
+.btn:hover{
+    background-color: rgb(34, 100, 254);
+}
+
+/*  DARK MODE STYLES */
+
+.dark-mode-content{
+    background-color: rgb(52, 52, 52);
+}
+
+
+.dark-mode-cuadro{
+    background-color: rgb(94, 94, 94);
+    color: aliceblue;
+}
+
+.dark-btn{
+    background-color: rgb(29, 29, 29);
+}
+
+.dark-btn:hover{
+    background-color: rgb(94, 94, 94);
+}
+
+body {
+    transition: background-color 0.5s ease;
+}
+
+.cuadro {
+    transition: background-color 0.5s ease, color 0.5s ease;
+}
+
+.btn {
+    transition: background-color 0.5s ease, color 0.5s ease;
+}
