@@ -79,7 +79,7 @@ body {
 
 /* MEDIA QUERYS */
 
-@media (max-width: 600px) {
+@media screen (max-width: 600px) {
 
     .content {
         display: grid;
